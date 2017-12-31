@@ -7,11 +7,13 @@ package mchehab.com.databindinglistview;
 public class Person {
     private String firstName;
     private String lastName;
+    private String imageURL;
     private int age;
 
-    public Person(String firstName, String lastName, int age) {
+    public Person(String firstName, String lastName, String imageURL, int age) {
         this.firstName = firstName;
         this.lastName = lastName;
+        this.imageURL = imageURL;
         this.age = age;
     }
 
@@ -29,6 +31,14 @@ public class Person {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    public String getImageURL() {
+        return imageURL;
+    }
+
+    public void setImageURL(String imageURL) {
+        this.imageURL = imageURL;
     }
 
     public int getAge() {
