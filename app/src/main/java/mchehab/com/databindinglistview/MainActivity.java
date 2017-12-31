@@ -17,28 +17,46 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         List<Person> list = new ArrayList<>();
-        list.add(new Person("Name1", "Name2",23));
-        list.add(new Person("Name1", "Name2",23));
-        list.add(new Person("Name1", "Name2",23));
-        list.add(new Person("Name1", "Name2",23));
-        list.add(new Person("Name1", "Name2",23));
-        list.add(new Person("Name1", "Name2",23));
-        list.add(new Person("Name1", "Name2",23));
-        list.add(new Person("Name1", "Name2",23));
-        list.add(new Person("Name1", "Name2",23));
-        list.add(new Person("Name1", "Name2",23));
-        list.add(new Person("Name1", "Name2",23));
-        list.add(new Person("Name1", "Name2",23));
-        list.add(new Person("Name1", "Name2",23));
-        list.add(new Person("Name1", "Name2",23));
-        list.add(new Person("Name1", "Name2",23));
-        list.add(new Person("Name1", "Name2",23));
-        list.add(new Person("Name1", "Name2",23));
-        list.add(new Person("Name1", "Name2",23));
-        list.add(new Person("Name1", "Name2",23));
-        list.add(new Person("Name1", "Name2",23));
-        list.add(new Person("Name1", "Name2",23));
-
+        list.add(new Person("Name1", "Name2","https://www.w3schools.com/bootstrap/paris.jpg",
+                23));
+        list.add(new Person("Name1", "Name2","https://www.w3schools.com/bootstrap/paris.jpg",
+                23));
+        list.add(new Person("Name1", "Name2","https://www.w3schools.com/bootstrap/paris.jpg",
+                23));
+        list.add(new Person("Name1", "Name2","https://www.w3schools.com/bootstrap/paris.jpg",
+                23));
+        list.add(new Person("Name1", "Name2","https://www.w3schools.com/bootstrap/paris.jpg",
+                23));
+        list.add(new Person("Name1", "Name2","https://www.w3schools.com/bootstrap/paris.jpg",
+                23));
+        list.add(new Person("Name1", "Name2","https://www.w3schools.com/bootstrap/paris.jpg",
+                23));
+        list.add(new Person("Name1", "Name2","https://www.w3schools.com/bootstrap/paris.jpg",
+                23));
+        list.add(new Person("Name1", "Name2","https://www.w3schools.com/bootstrap/paris.jpg",
+                23));
+        list.add(new Person("Name1", "Name2","https://www.w3schools.com/bootstrap/paris.jpg",
+                23));
+        list.add(new Person("Name1", "Name2","https://www.w3schools.com/bootstrap/paris.jpg",
+                23));
+        list.add(new Person("Name1", "Name2","https://www.w3schools.com/bootstrap/paris.jpg",
+                23));
+        list.add(new Person("Name1", "Name2","https://www.w3schools.com/bootstrap/paris.jpg",
+                23));
+        list.add(new Person("Name1", "Name2","https://www.w3schools.com/bootstrap/paris.jpg",
+                23));
+        list.add(new Person("Name1", "Name2","https://www.w3schools.com/bootstrap/paris.jpg",
+                23));
+        list.add(new Person("Name1", "Name2","https://www.w3schools.com/bootstrap/paris.jpg",
+                23));
+        list.add(new Person("Name1", "Name2","https://www.w3schools.com/bootstrap/paris.jpg",
+                23));
+        list.add(new Person("Name1", "Name2","https://www.w3schools.com/bootstrap/paris.jpg",
+                23));
+        list.add(new Person("Name1", "Name2","https://www.w3schools.com/bootstrap/paris.jpg",
+                23));
+        list.add(new Person("Name1", "Name2","https://www.w3schools.com/bootstrap/paris.jpg",
+                23));
         ListView listView = findViewById(R.id.listView);
         listView.setAdapter(new CustomAdapter(this, list));
     }
