@@ -12,28 +12,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val list = ArrayList<Person>()
-        list.add(Person("Name1", "Name2", 23))
-        list.add(Person("Name1", "Name2", 23))
-        list.add(Person("Name1", "Name2", 23))
-        list.add(Person("Name1", "Name2", 23))
-        list.add(Person("Name1", "Name2", 23))
-        list.add(Person("Name1", "Name2", 23))
-        list.add(Person("Name1", "Name2", 23))
-        list.add(Person("Name1", "Name2", 23))
-        list.add(Person("Name1", "Name2", 23))
-        list.add(Person("Name1", "Name2", 23))
-        list.add(Person("Name1", "Name2", 23))
-        list.add(Person("Name1", "Name2", 23))
-        list.add(Person("Name1", "Name2", 23))
-        list.add(Person("Name1", "Name2", 23))
-        list.add(Person("Name1", "Name2", 23))
-        list.add(Person("Name1", "Name2", 23))
-        list.add(Person("Name1", "Name2", 23))
-        list.add(Person("Name1", "Name2", 23))
-        list.add(Person("Name1", "Name2", 23))
-        list.add(Person("Name1", "Name2", 23))
-        list.add(Person("Name1", "Name2", 23))
-
+        for (i in 0..20){
+            list.add(Person("Name1", "Name2", "https://www.w3schools.com/bootstrap/paris.jpg", 23))
+        }
         listView.adapter = CustomAdapter(this@MainActivity, list)
     }
 }
